@@ -2,7 +2,7 @@
 # GitHub Actions workflow.
 #
 # Automatically deploys the Node.js microservice to Kubernetes on push to the main branch.
-# For real use you might want to restrict this to the "prod" branch.
+# For real use you might want to restrict this to the "prod" branching
 #
 
 name: Deploy gateway
