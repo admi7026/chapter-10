@@ -26,11 +26,11 @@ spec:
         - name: PORT
           value: "4000"
         - name: DBHOST
-          value: mongodb://mongodb:27017
+          value: mongodb+srv://Sufi:Sufi777@cluster0.mmzbf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
         - name: DBNAME
           value: history
         - name: RABBIT
-          value: amqp://test:test@rabbit:5672
+          value:  amqp://guest:guest@localhost:5672/
 ---
 apiVersion: v1
 kind: Service
